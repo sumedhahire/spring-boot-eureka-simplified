@@ -11,10 +11,9 @@ import java.util.UUID;
 @Table(name = "product")
 @NoArgsConstructor
 @AllArgsConstructor
-@Builder
-@ToString
 @Getter
 @Setter
+@ToString
 public class Product {
 
     @Id

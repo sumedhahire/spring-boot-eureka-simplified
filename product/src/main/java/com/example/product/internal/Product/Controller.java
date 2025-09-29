@@ -1,6 +1,7 @@
 package com.example.product.internal.Product;
 
 
+import org.example.lib.feignCommonModel.ProductResponseModel;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -19,12 +20,12 @@ public class Controller {
 
 
     @GetMapping
-    public List<ProductResponse> fetchAll(){
+    public List<ProductResponseModel> fetchAll(){
         return service.fetchAll();
     }
 
     @GetMapping("{id}")
-    public ProductResponse fetchById(@PathVariable("id") UUID string){
+    public ProductResponseModel fetchById(@PathVariable("id") UUID string){
         System.out.println("=slayyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy");
         return service.fetchById(string);
     }

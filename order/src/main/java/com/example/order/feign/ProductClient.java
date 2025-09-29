@@ -1,5 +1,6 @@
 package com.example.order.feign;
 
+import org.example.lib.feignCommonModel.ProductResponseModel;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -12,5 +13,5 @@ import java.util.UUID;
 public interface ProductClient {
 
     @GetMapping(value="/product/{id}")
-    public ProductResponse fetchById(@PathVariable("id") UUID string);
+    public ProductResponseModel fetchById(@PathVariable("id") UUID string);
 }
