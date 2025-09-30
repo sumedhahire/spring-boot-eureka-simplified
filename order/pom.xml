@@ -12,8 +12,6 @@
     <artifactId>order</artifactId>
     <packaging>jar</packaging>
 
-
-
 	<name>order</name>
 	<description>Demo project for Spring Boot</description>
 	<url/>
