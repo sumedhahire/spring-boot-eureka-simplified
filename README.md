@@ -11,6 +11,7 @@
   <img src="https://img.shields.io/badge/eureka-registered-yellow" alt="eureka" />
   <img src="https://img.shields.io/badge/grpc-supported-lightgrey" alt="grpc" />
   <img src="https://img.shields.io/badge/feign-client-blueviolet" alt="feign" />
+  <img src="https://img.shields.io/badge/hibernate-5.x-orange" alt="hibernate" />
 </p>
 
 <p>A compact hands-on tutorial (its simple rest assure). Two Spring Boot services register with Eureka and communicate using Feign (REST) and gRPC.</p>
