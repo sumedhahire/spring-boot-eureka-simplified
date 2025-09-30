@@ -1,5 +1,5 @@
 <!-- README snippet — paste into README.md -->
-<h1>springboot-microservices-tutorial</h1>
+<h1>springboot-microservices-eureka-grpc-feign-tutorial</h1>
 
 <!-- <p>
   <img src="assets/demo-gif.gif" alt="demo" width="720" />
